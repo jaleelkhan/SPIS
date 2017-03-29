@@ -5,11 +5,11 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPIS.WebAPI", "SPIS.WebAPI\SPIS.WebAPI.csproj", "{D2F0AEBF-A824-4A23-8ED1-7FADBE9CC2A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPIS.Web", "SPIS.Web\SPIS.Web.csproj", "{C96DB539-C63D-4214-9C9C-742401728B32}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPIS.BL", "SPIS.BL\SPIS.BL.csproj", "{51D5C1E3-E629-43AD-AB7D-38A46E41A81E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPISImageProcessor", "SPISImageProcessor\SPISImageProcessor.csproj", "{296B8377-2492-4783-ACD3-E51A635C007C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPIS.Web", "SPIS.Web\SPIS.Web.csproj", "{77B676E1-F532-4BED-9C3F-32C816AAF9A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +21,6 @@ Global
 		{D2F0AEBF-A824-4A23-8ED1-7FADBE9CC2A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2F0AEBF-A824-4A23-8ED1-7FADBE9CC2A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2F0AEBF-A824-4A23-8ED1-7FADBE9CC2A1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C96DB539-C63D-4214-9C9C-742401728B32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C96DB539-C63D-4214-9C9C-742401728B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C96DB539-C63D-4214-9C9C-742401728B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C96DB539-C63D-4214-9C9C-742401728B32}.Release|Any CPU.Build.0 = Release|Any CPU
 		{51D5C1E3-E629-43AD-AB7D-38A46E41A81E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{51D5C1E3-E629-43AD-AB7D-38A46E41A81E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51D5C1E3-E629-43AD-AB7D-38A46E41A81E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{296B8377-2492-4783-ACD3-E51A635C007C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{296B8377-2492-4783-ACD3-E51A635C007C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{296B8377-2492-4783-ACD3-E51A635C007C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77B676E1-F532-4BED-9C3F-32C816AAF9A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77B676E1-F532-4BED-9C3F-32C816AAF9A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77B676E1-F532-4BED-9C3F-32C816AAF9A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77B676E1-F532-4BED-9C3F-32C816AAF9A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

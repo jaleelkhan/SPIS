@@ -18,6 +18,9 @@ namespace SPIS.BL.Models
         public string Category { get; set; }
         public string Item { get; set; }
         public Nullable<int> Quantity { get; set; }
+        public string ImageUrl { get; set; }
+        public string ImageName { get; set; }
+        public string ThumbNailUrl { get; set; }
         public Nullable<System.DateTime> CreatedOn { get; set; }
         public string CreatedBy { get; set; }
         public Nullable<System.DateTime> ModifedOn { get; set; }

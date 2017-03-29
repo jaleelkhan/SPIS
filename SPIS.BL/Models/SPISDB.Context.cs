@@ -25,7 +25,7 @@ namespace SPIS.BL.Models
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<Good> Goods { get; set; }
         public virtual DbSet<LoggedUserInfo> LoggedUserInfoes { get; set; }
+        public virtual DbSet<Good> Goods { get; set; }
     }
 }

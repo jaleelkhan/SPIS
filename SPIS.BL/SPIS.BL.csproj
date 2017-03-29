@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BlobInformation.cs" />
     <Compile Include="Models\Good.cs">
       <DependentUpon>SPISDB.tt</DependentUpon>
     </Compile>
