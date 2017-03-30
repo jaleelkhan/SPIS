@@ -130,8 +130,9 @@ namespace SPIS.Web.Controllers
                 }
                 return RedirectToAction("Index");
             }
-            catch
+            catch(Exception ex)
             {
+                Trace.TraceError(ex.Message);
                 return View();
             }
         }

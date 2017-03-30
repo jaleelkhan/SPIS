@@ -96,6 +96,8 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\grocerymart - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\grocerymart - Web Deploy.pubxml" />
     <None Include="Properties\webjob-publish-settings.json" />
   </ItemGroup>
   <ItemGroup>

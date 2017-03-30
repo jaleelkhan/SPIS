@@ -206,6 +206,8 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="Properties\PublishProfiles\grocerymart - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\grocerymart - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\SPISWeb.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />

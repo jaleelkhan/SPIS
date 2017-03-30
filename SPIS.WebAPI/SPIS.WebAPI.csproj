@@ -178,6 +178,8 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Service References\Application Insights\ConnectedService.json" />
+    <None Include="Properties\PublishProfiles\grocerymartapi - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\grocerymartapi - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\SPISWebAPI20170326092919.pubxml" />
     <Content Include="Service References\AzureAD\ConnectedService.json" />
     <None Include="Web.Debug.config">
